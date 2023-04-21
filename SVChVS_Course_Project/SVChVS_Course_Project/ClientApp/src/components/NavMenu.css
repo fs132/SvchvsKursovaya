@@ -1,0 +1,89 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+body {
+    background: linear-gradient(72deg, #b46464, #000000, #8b00ff);
+    background-size: 600% 600%;
+    -webkit-animation: Animation 21s ease infinite;
+    -moz-animation: Animation 21s ease infinite;
+    -o-animation: Animation 21s ease infinite;
+    animation: Animation 21s ease infinite;
+}
+
+@-webkit-keyframes Animation{
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+
+@-moz-keyframes Animation {
+    0% {
+        background-position: 61% 0%
+    }
+
+    50% {
+        background-position: 40% 100%
+    }
+
+    100% {
+        background-position: 61% 0%
+    }
+}
+
+@-o-keyframes Animation {
+    0% {
+        background-position: 61% 0%
+    }
+
+    50% {
+        background-position: 40% 100%
+    }
+
+    100% {
+        background-position: 61% 0%
+    }
+}
+
+@keyframes Animation {
+    0% {
+        background-position: 61% 0%
+    }
+
+    50% {
+        background-position: 40% 100%
+    }
+
+    100% {
+        background-position: 61% 0%
+    }
+}
+
+.card{
+    font-size:11pt;
+}
+
+.row {
+    margin-top: 10px;
+    margin-left:50px;
+}
+
+.text{
+    color:white;
+}
